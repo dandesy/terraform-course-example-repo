@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tf_cloud" {
-  bucket = "terraform-=cloud-vcs-019283"
+  bucket = "terraform-cloud-vcs-019283"
 
   tags = {
     Name = "terraform-cloud"
